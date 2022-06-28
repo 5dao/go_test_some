@@ -7,5 +7,5 @@ type Some struct {
 }
 
 func (p *Some) Say() {
-	fmt.Printf("say: tag 1 %s\r", p.Name)
+	fmt.Printf("say: tag +1 %s\r", p.Name)
 }
